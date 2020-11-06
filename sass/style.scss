@@ -1,0 +1,377 @@
+@import 'colors' ;
+@import 'font' ;
+@import 'mixin';
+@import 'mediasqueries' ;
+
+body {
+ background-image: url(../imagesredhots/back3.jpg);
+  background-size: auto;
+  width: 100% !important;
+height:500px ;
+font-family:$font-menu;
+font-size:80%;
+justify-content: center;
+}
+
+.titulo1 {
+ display: flex;
+justify-content: center;
+color: $titulo-color;
+font-family:$font-menu ;
+word-spacing: normal;
+text-transform: uppercase;
+text-decoration: underline; 
+font-size: 45px;
+}
+
+ul {
+  color: $menuup-color;
+  background-color:$menuup-background-color ;
+  border-color:$menuup-border-color ;
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  border: solid 2px;
+ text-align: center;
+ font-family:$font-menu; 
+ font-size: 25px;
+ margin-bottom: 100px;
+ margin: auto;   
+ text-decoration: underline;
+  a {
+      color: $a-color;
+      margin-left: 20px;
+       font-family:$font-menu;
+  }
+}
+.image1 {
+  background-color:rgba(0,0,0,0.2);
+  border:solid  3px;
+  border-color: $image1-border-color;
+  font-family:$font-footer;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-size:17px;
+  margin: 20px;
+  margin-bottom:20px ;
+  font-weight: bolder;
+  justify-content: center !important;
+  h3{
+      font-size: 30px;
+     font-weight:bolder;
+     display: flex;
+    justify-content:left;
+    text-align: center;
+  font-family: $font-menu;
+  color:$h3-color;
+    padding-left: 20px;
+    text-decoration: underline;
+    
+      &:hover{
+          text-decoration: underline;
+          color:$hover-color;
+          background-color:$hover-background-color;
+         font-family:$font-menu;
+         word-spacing: normal;
+        font-size: 30px;
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+
+    .image1p {
+        color :$image1p-color ;
+        margin-top: 20px;
+        font-size: 14px;
+        font-family:$font-menu;
+        font-weight: bolder;
+        padding-right: 40px; 
+        padding-left: 50px;
+    
+      }
+}
+}
+}
+.image2 {
+  background-color:rgba(0,0,0,0.2);
+  border: solid 3px;
+  border-color: $image2-border-color;
+  font-family: $font-menu;
+  padding-left: 60px;
+  padding-right: 40px; 
+  font-size:16px;
+  margin: 20px;
+  margin-bottom:20px ;
+  font-weight: bolder;
+  
+  
+  h3{
+      font-size: 30px;
+     font-weight:bolder;
+     display: flex;
+    justify-content:left;
+    text-align: center;
+  font-family: $font-menu;
+  color:$h3-color;
+    padding-left: 20px;
+    padding-right:20px ;
+    text-decoration: underline;
+      &:hover{
+          text-decoration: underline;
+          color:$hover-color;
+          background-color:$hover-background-color;
+         font-family:$font-menu;
+         word-spacing: normal;
+        font-size: 30px;
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+    .image2p {
+        color:$image2p-color ;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: $font-menu;
+        font-weight: bolder;
+        justify-content: center;
+        padding-right: 40px; 
+  padding-left: 50px;
+       
+      }
+  }
+ }
+}
+.image3 {
+  background-color:rgba(0,0,0,0.2);
+  border: solid  3px;
+  border-color: $image3-border-color;
+  font-family: $font-menu;
+  padding-left: 60px;
+  padding-right: 40px; 
+  font-size:18px;
+  margin: 20px;
+  margin-bottom:20px ;
+  font-weight: bolder;
+  
+  h3{
+      font-size: 30px;
+     font-weight:bolder;
+     display: flex;
+    justify-content:left;
+    text-align: center;
+  font-family:$font-menu;
+  color:$h3-color;
+    padding-left: 20px;
+    padding-right:20px ;
+    text-decoration: underline;
+      &:hover{
+          text-decoration: underline;
+          color:$hover-color;
+          background-color:$hover-background-color;
+         font-family:$font-menu;
+         word-spacing: normal;
+        font-size: 30px;
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+    .image3p {
+        color:$image3p-color;
+        margin-top: 20px;
+        font-size: 12px;
+        font-family: $font-menu;
+        font-weight: bolder;
+        padding-right: 40px; 
+        padding-left: 50px;
+        width:auto ;
+      }
+  }
+ }
+}  
+.image4 {
+  background-color:rgba(0,0,0,0.2);
+  border: solid 3px;
+  border-color: $image4-border-color;
+  font-family: $font-menu;
+  padding-left: 60px;
+  padding-right: 40px; 
+  margin: 20px;
+  margin-bottom:20px ;
+  font-weight: bolder;
+  
+  h3{
+      font-size: 30px;
+     font-weight:bolder;
+     display: flex;
+    justify-content:left;
+    text-align: center;
+  font-family:$font-menu;
+  color:$h3-color;
+    padding-left: 20px;
+    padding-right:20px ;
+    text-decoration: underline;
+      &:hover{
+          text-decoration: underline;
+          color:$hover-color;
+          background-color:$hover-background-color;
+         font-family:$font-menu;
+         word-spacing: normal;
+        font-size: 30px;
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+    .image4p {
+        color:$image4p-color ;
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: bolder;
+        font-family: $font-menu;
+        padding-top: 10px;
+        font-weight: bolder;
+        padding-right: 40px; 
+        padding-left: 50px;
+
+      }
+  }
+}  
+} 
+.image5 {
+  background-color:rgba(0,0,0,0.2);
+  border: solid 3px;
+  border-color: $image5-border-color;
+  font-family: $font-menu;
+  padding-right: 40px; 
+  padding-left:60px ;
+  font-size:18px;
+  margin: 20px;
+  margin-bottom:20px ;
+  font-weight: bolder;
+  float: center;
+  
+  
+  h3{
+      font-size: 30px;
+     font-weight:bolder;
+     display: flex;
+    justify-content:left;
+    text-align: center;
+  font-family: $font-menu;
+  color:$h3-color;
+    padding-left: 20px;
+    padding-right:20px ;
+    text-decoration: underline;
+      &:hover{
+          text-decoration: underline;
+          color:$hover-color;
+          background-color:$hover-background-color;
+         font-family:$font-menu;
+         word-spacing: normal;
+        font-size: 30px;
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+  .image5p {
+        color:$image5p-color ;
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: bolder;
+        font-family: $font-menu;
+        font-weight: bolder;
+        padding-right: 40px; 
+        padding-left: 50px;
+
+      }
+  }
+ }
+}
+.image6 {
+  background-color:rgba(0,0,0,0.2);
+  border: solid 3px;
+  border-color: $image5-border-color;
+  font-family: $font-menu;
+  padding-right: 40px; 
+  padding-left: 80px;
+  font-size:18px;
+  margin: 20px;
+  margin-bottom:20px ;
+  font-weight: bolder;
+  
+  h3{
+      font-size: 30px;
+     font-weight:bolder;
+     display: flex;
+    justify-content:left;
+    text-align: center;
+  font-family: $font-menu;
+  color:$h3-color;
+    padding-left: 20px;
+    padding-right:20px ;
+    text-decoration: underline;
+      &:hover{
+          text-decoration: underline;
+          color:$hover-color;
+          background-color:$hover-background-color;
+         font-family:$font-menu;
+         word-spacing: normal;
+        font-size: 30px;
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+  .image6p {
+        color:$image5p-color ;
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: bolder;
+        font-family: $font-menu;
+        float: left;
+        font-weight: bolder;
+
+      }
+  }
+ }
+}
+
+div {
+  a {
+      color: $a-color;
+      margin-left: 20px;
+      font-family: $font-menu;
+      font-size: 25px;
+  }
+}
+.emailform{
+  color:$emailform-color ;
+  width: auto;
+  font-family: $font-menu;
+  font-weight: bolder;
+  .form-check {
+      display: flex;
+  justify-content: left;
+  }
+}
+.signin{
+  color:$signin-color;
+  display: flex;
+  justify-content: left;
+  font-family:$font-menu;
+  font-weight: bolder;
+  font-size:15px;
+}
+.socialmedia {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  float: left;
+  width: auto;
+}
+.footer {
+  color:$footer-color;
+  font-weight: bold;
+  font-family: $font-footer;
+  float: right;
+  margin-right:30px ;
+  font-size:20px ;
+}
+
+.img-fluid {
+width: auto;
+  height: auto;
+}

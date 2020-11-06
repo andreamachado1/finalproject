@@ -1,0 +1,368 @@
+body {
+  background-image: url(../imagesredhots/back3.jpg);
+  background-size: auto;
+  width: 100% !important;
+  height: 500px;
+  font-family: Roboto;
+  font-size: 80%;
+  justify-content: center;
+}
+
+.titulo1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: Roboto;
+  word-spacing: normal;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 45px;
+}
+
+ul {
+  color: whitesmoke;
+  background-color: black;
+  border-color: white;
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  border: solid 2px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  margin-bottom: 100px;
+  margin: auto;
+  text-decoration: underline;
+}
+ul a {
+  color: white;
+  margin-left: 20px;
+  font-family: Roboto;
+}
+
+.image1 {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid 3px;
+  border-color: lightgrey;
+  font-family: Futura;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-size: 17px;
+  margin: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  justify-content: center !important;
+}
+.image1 h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+.image1 h3:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: lightgrey;
+  font-family: Roboto;
+  word-spacing: normal;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+}
+.image1 h3:hover .image1p {
+  color: black;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: bolder;
+  padding-right: 40px;
+  padding-left: 50px;
+}
+
+.image2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid 3px;
+  border-color: lightgrey;
+  font-family: Roboto;
+  padding-left: 60px;
+  padding-right: 40px;
+  font-size: 16px;
+  margin: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.image2 h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+.image2 h3:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: lightgrey;
+  font-family: Roboto;
+  word-spacing: normal;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+}
+.image2 h3:hover .image2p {
+  color: black;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bolder;
+  justify-content: center;
+  padding-right: 40px;
+  padding-left: 50px;
+}
+
+.image3 {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid 3px;
+  border-color: lightgrey;
+  font-family: Roboto;
+  padding-left: 60px;
+  padding-right: 40px;
+  font-size: 18px;
+  margin: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.image3 h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+.image3 h3:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: lightgrey;
+  font-family: Roboto;
+  word-spacing: normal;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+}
+.image3 h3:hover .image3p {
+  color: black;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: bolder;
+  padding-right: 40px;
+  padding-left: 50px;
+  width: auto;
+}
+
+.image4 {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid 3px;
+  border-color: lightgrey;
+  font-family: Roboto;
+  padding-left: 60px;
+  padding-right: 40px;
+  margin: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.image4 h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+.image4 h3:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: lightgrey;
+  font-family: Roboto;
+  word-spacing: normal;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+}
+.image4 h3:hover .image4p {
+  color: black;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bolder;
+  font-family: Roboto;
+  padding-top: 10px;
+  font-weight: bolder;
+  padding-right: 40px;
+  padding-left: 50px;
+}
+
+.image5 {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid 3px;
+  border-color: lightgrey;
+  font-family: Roboto;
+  padding-right: 40px;
+  padding-left: 60px;
+  font-size: 18px;
+  margin: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  float: center;
+}
+.image5 h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+.image5 h3:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: lightgrey;
+  font-family: Roboto;
+  word-spacing: normal;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+}
+.image5 h3:hover .image5p {
+  color: black;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bolder;
+  font-family: Roboto;
+  font-weight: bolder;
+  padding-right: 40px;
+  padding-left: 50px;
+}
+
+.image6 {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid 3px;
+  border-color: lightgrey;
+  font-family: Roboto;
+  padding-right: 40px;
+  padding-left: 80px;
+  font-size: 18px;
+  margin: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.image6 h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: underline;
+}
+.image6 h3:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: lightgrey;
+  font-family: Roboto;
+  word-spacing: normal;
+  font-size: 30px;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+}
+.image6 h3:hover .image6p {
+  color: black;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bolder;
+  font-family: Roboto;
+  float: left;
+  font-weight: bolder;
+}
+
+div a {
+  color: white;
+  margin-left: 20px;
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.emailform {
+  color: black;
+  width: auto;
+  font-family: Roboto;
+  font-weight: bolder;
+}
+.emailform .form-check {
+  display: flex;
+  justify-content: left;
+}
+
+.signin {
+  color: black;
+  display: flex;
+  justify-content: left;
+  font-family: Roboto;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.socialmedia {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  float: left;
+  width: auto;
+}
+
+.footer {
+  color: red;
+  font-weight: bold;
+  font-family: Futura;
+  float: right;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.img-fluid {
+  width: auto;
+  height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
